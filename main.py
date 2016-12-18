@@ -34,7 +34,7 @@ class MyFrame(wx.Frame):
         self.SetMenuBar(menubar)
 
     def OnAbout(self, event):
-        wx.MessageBox(u"作者: 吴修树\n开发时间：2016/12/18", u"简介", style=wx.OK)
+        wx.MessageBox(u"作者: 吴修树\nQQ:1367387530\n开发时间：2016/12/18", u"简介", style=wx.OK)
 
     def SignInUser(self, event):
         enter_user = Enter_User(u"用户登录界面", self)
